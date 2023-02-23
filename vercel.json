@@ -1,10 +1,8 @@
 {
     "version": 2,
-    "functions": [
-        {
-            "server.php": { "runtime": "vercel-php@0.5.2" }
-        }
-    ],
+    "functions": {
+        "server.php": { "runtime": "vercel-php@0.5.2" }
+    },
     "routes": [
         {
             "src": "/(.*)",
