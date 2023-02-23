@@ -9,8 +9,12 @@
             "dest": "/api/index.php"
         },
         {
+            "src": "/api/(.*)",
+            "dest": "public/api/$1"
+        },
+        {
             "src": "/(.*)",
-            "dest": "/"
+            "dest": "public/$1"
         }
     ],
     "env": {
